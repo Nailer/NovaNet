@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "NovaNet_backend": {
+      "main": "src/NovaNet_backend/main.mo",
+      "type": "motoko"
+    },
+    "NovaNet_frontend": {
+      "dependencies": [
+        "NovaNet_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/NovaNet_frontend/src/index.html"
+      },
+      "source": [
+        "src/NovaNet_frontend/assets",
+        "dist/NovaNet_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
