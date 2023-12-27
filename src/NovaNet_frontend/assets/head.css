@@ -1,0 +1,23 @@
+.head {
+    display: flex;
+    margin-top: 2px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    color: rgb(12, 219, 12);
+    background: transparent;
+}
+
+.connectWallet {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+
